@@ -1,56 +1,100 @@
+/* Style sheet create by: Trung Nguyen, 23/01/2019 */
+
+/* Style for body specifies a background color */
 body {
     background-color: #ffff99;    
 }
 
+/* Style to create a fluid image */
+img {
+    max-width: 100%;
+}
+
+/* Styles for Mobile layout */
+
+/* Style for the container centers the page and specifies the width */
 #container {
-    width: 80%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Style for header specifies top margin, background-color, rounded corners, center-aligns content */
 header {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 0.2em;
     background-color: #ffffff;
-    border-radius: 10px;
-    box-shadow: 12px 12px 12px #404040;
+    border-radius: 0.5em;
     text-align: center;
 }
 
+/* Style for nav specifies text properties */
 nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.25em;
     font-weight: bold;
     text-align: center;
-    padding: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    border-top: 5px solid #ffffff;
-    border-bottom: 5px solid #ffffff;
 }
 
+/* Style specifies padding, margins for unordered list */
+nav ul {
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the background color, rounded corners, remove bullet style, apply margins, padding for list items within the nav */
+nav li {
+    background-color: #009933;
+    border-radius: 2em;
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.4em;
+}
+
+/* Style changes nav link text color to white, removes underline */
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Style displays the mobile class */
+.mobile {
+    display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+    display: none;
+}
+
+/* Style for the main element specifies a block display, text properties, margins, padding, rounded corners, border properties */
 main {
     display: block;
     font-family: Verdana, Arial, sans-serif;
     font-size: 1em;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 20px;
-    border-radius: 10px;
+    margin-top: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
     background-color: #ffffff;
-    box-shadow: 12px 12px 12px #404040;
+    border-top: solid 0.2em #009933;
+    border-bottom: solid 0.2em #009933;
 }
 
+/* Style for footer specifies font size, text alignment, top margin */
 footer {
     font-size: .70em;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 2em;
 }
 
+/* Style hides the tablet class */
+.tablet {
+    display: none;
+}
+
+/* Style rule specifies to not display the equip class */
 .equip {
-    float: left;
-    padding-right: 20px;
+    display: none;
 }
 
 ul {
