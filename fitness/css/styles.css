@@ -266,6 +266,34 @@ aside {
     margin: 1em;
 }
 
+/* Style for table element */
+table {
+    border: 0.1em solid #000000;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Style specifies border and padding for th and td element */
+th, td {
+    border: 0.1em solid #000000;
+    padding: 1em;
+}
+
+/* Style for th element */
+th {
+    background-color: #1d1d1c;
+    color: #ffffff;
+}
+
+/* Style for caption element */
+caption {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
 }
 
 /* Media querry for desktop viewport targets screens with a minimum width of 830px */
@@ -398,6 +426,17 @@ main h2 {
 /* Style for main article h2 element */
 main article h2 {
     color: #000000;
+}
+
+/* Style for table element */
+table {
+    background-color: #ffffff;
+    width: 85%;
+}
+
+/* Style for caption element */
+caption {
+    color: #ffffff;
 }
 
 }
