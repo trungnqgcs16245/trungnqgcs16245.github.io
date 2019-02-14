@@ -213,6 +213,16 @@ section a {
     text-decoration: underline;
 }
 
+/* Style for contact class */
+.contact {
+    background-color: transparent;
+    color: #1d1d1c;
+    padding: 0;
+    text-decoration: underline;
+}
+
+}
+
 }
 
 /* Media querry for desktop viewport targets screens with a minimum width of 830px */
@@ -330,6 +340,16 @@ section a {
 /* Style for paragraph element within the section element */
 section p {
     margin-left: 0;
+}
+
+/* Style for main h2 element */
+main h2 {
+    color: #ffffff;
+}
+
+/* Style for contact class */
+.contact {
+    color: #ffffff;    
 }
 
 }
